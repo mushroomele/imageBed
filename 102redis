@@ -1,0 +1,136 @@
+[
+	{
+		"id": "whistlenewchen-get",
+		"predicates": [
+			{
+				"name": "Path",
+				"args": {
+					"_genkey_0": "/whistlenewchen/**"
+				}
+			}
+		],
+		"filters": [
+			{
+				"name": "SignCheck",
+				"args": {
+					"enabled": "true"
+				}
+			}
+		],
+		"uri": "http://172.17.207.103/whistlenewchen/",
+		"metadata": {},
+		"order": 0
+	},
+	{
+		"id": "whistleMS-get",
+		"predicates": [
+			{
+				"name": "Path",
+				"args": {
+					"_genkey_0": "/whistleMS/**"
+				}
+			},
+			{
+				"name": "Method",
+				"args": {
+					"_genkey_0": "get"
+				}
+			}
+		],
+		"filters": [
+			{
+				"name": "SignCheck",
+				"args": {
+					"enabled": "true"
+				}
+			}
+		],
+		"uri": "http://172.17.207.103/whistleMS/index.php",
+		"metadata": {},
+		"order": 0
+	},
+	{
+		"id": "whistleMS-post",
+		"predicates": [
+			{
+				"name": "Path",
+				"args": {
+					"_genkey_0": "/whistleMS/**"
+				}
+			},
+			{
+				"name": "Method",
+				"args": {
+					"_genkey_0": "post"
+				}
+			}
+		],
+		"filters": [
+			{
+				"name": "SignCheck",
+				"args": {
+					"enabled": "true"
+				}
+			}
+		],
+		"uri": "http://172.17.207.103/whistleMS/index.php",
+		"metadata": {},
+		"order": 0
+	},
+	{
+		"id": "whistlenew-get",
+		"predicates": [
+			{
+				"name": "Path",
+				"args": {
+					"_genkey_0": "/whistlenew/**"
+				}
+			},
+			{
+				"name": "Method",
+				"args": {
+					"_genkey_0": "get"
+				}
+			}
+		],
+		"filters": [
+			{
+				"name": "SignCheck",
+				"args": {
+					"enabled": "true"
+				}
+			}
+		],
+		"uri": "http://172.17.207.103/whistlenew/index.php",
+		"metadata": {},
+		"order": 0
+	},
+	{
+		"id": "whistlenew-post",
+		"predicates": [
+			{
+				"name": "Path",
+				"args": {
+					"_genkey_0": "/whistlenew/**"
+				}
+			},
+			{
+				"name": "Method",
+				"args": {
+					"_genkey_0": "post"
+				}
+			}
+		],
+		"filters": [
+			{
+				"name": "SignCheck",
+				"args": {
+					"enabled": "true"
+				}
+			}
+		],
+		"uri": "http://172.17.207.103/whistlenew/index.php",
+		"metadata": {},
+		"order": 0
+	}
+]
